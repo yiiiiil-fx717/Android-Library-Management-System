@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/CS/CS442/L4Assignment/FoodOrderAPP/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e3c45fc96b71c90f531e73d3454f186f9bbaea53">
+        <dex dex="/Users/liuyi/CS/CS442/L4Assignment/FoodOrderAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4108ac57c9c58301f6c0bd6561d9009943424ea9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/CS/CS442/L4Assignment/FoodOrderAPP/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/liuyi/CS/CS442/L4Assignment/FoodOrderAPP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0505ab5bf6a18356cf12aa2c052fb23141da8dbc/classes.dex" />
+    </item>
+
+</items>

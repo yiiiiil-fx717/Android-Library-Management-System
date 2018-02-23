@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/id_fragment_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+    </LinearLayout>
+    <!--fragment
+        android:id="@+id/id_fragment_list"
+        android:name="com.cs442.yliu308.foodorderapp.MenuListFragment"
+        tools:layout="@layout/fragment_menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/-->
+
+    <fragment
+        android:id="@+id/id_fragment_cart"
+        android:name="com.cs442.yliu308.foodorderapp.MenuCartFragment"
+        tools:layout="@layout/fragment_menu_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

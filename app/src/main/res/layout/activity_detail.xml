@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/detail_item_name"
+        android:text="Food Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/detail_item_img"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/detail_item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is detail screen of food." />
+
+    <EditText
+        android:id="@+id/detail_item_ord_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:inputType="number"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_gravity="left"
+            android:id="@+id/detail_order"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Order" />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:id="@+id/detail_reset"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
+    </LinearLayout>
+</LinearLayout>
